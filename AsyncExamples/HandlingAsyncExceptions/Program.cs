@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace HandlingAsyncExceptions
@@ -23,7 +24,8 @@ namespace HandlingAsyncExceptions
 				HandleException(e);
 			}
 
-			Console.WriteLine("\nA próxima operação vai falhar mas não será possível tratá-la corretamente.");
+			Console.WriteLine();
+			Console.WriteLine("A próxima operação vai falhar mas não será possível tratá-la corretamente.");
 
 			try
 			{
@@ -37,8 +39,7 @@ namespace HandlingAsyncExceptions
 
 			await Task.Delay(2000);
 			Console.WriteLine("Ainda mais, não será se quer possível aguardar sua execução: ela ocorrerá de forma concorrente mas não será possível utilizar o await.");
-
-			Console.WriteLine();
+			await Task.Delay(2000);
 		}
 
 		private static async Task Operacao1Async()
