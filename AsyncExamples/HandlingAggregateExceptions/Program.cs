@@ -7,6 +7,7 @@ namespace HandlingAggregateExceptions
 {
 	class Program
 	{
+
 		static void Main(string[] args)
 		{
 			MainAsync().Wait();
@@ -17,6 +18,11 @@ namespace HandlingAggregateExceptions
 			Console.WriteLine();
 			Console.WriteLine("Trataremos agora um agregado de exceções:\n");
 			await Task.Delay(2000);
+
+			// true dat on
+			/* 
+			Nome de operações da PF
+			 */
 
 			var operacoesNomes = new string[] {
 					"Papel Furado", "Deus Tá Vendo", "Déjà Vu", "Houdini", "Pasárgada", "Mão Invisível", "Cana Brava", "Flash Back"
@@ -33,12 +39,16 @@ namespace HandlingAggregateExceptions
 			}
 			catch
 			{
+				/*
+				Handling exception
+				 */
 				operacoesWhenAll.Exception.Handle((e) =>
 				{
 					HandleException(e);
 					return true;
 				});
 			}
+			// true dat off
 		}
 
 		private static void HandleException(Exception e)

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "true-documentation-automation-tool/1.0.0": {
+        "runtime": {
+          "true-documentation-automation-tool.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "true-documentation-automation-tool/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
