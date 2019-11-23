@@ -20,12 +20,14 @@ namespace HandlingAggregateExceptions
 			await Task.Delay(2000);
 
 			// true dat on
+			/*
+			# Handling Aggregate Exceptions
+			*/
 			var operacoesNomes = new string[] {
 					"Papel Furado", "Deus Tá Vendo", "Déjà Vu", "Houdini", "Pasárgada", "Mão Invisível", "Cana Brava", "Flash Back"
 			};
 
 			/*
-			# Handling Aggregate Exceptions
 
 			## Problema
 
