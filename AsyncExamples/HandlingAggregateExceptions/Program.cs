@@ -25,6 +25,10 @@ namespace HandlingAggregateExceptions
 			};
 
 			/*
+			# Handling Aggregate Exceptions
+
+			## Problema
+
 			Nesse trexo de código definimos um `IEnumerable operacoes`, com a finalidade de esperar as operacoes serem realizadas ou falharem. Sabemos que as `operacoes` vao falhar.
 
 			Qual a maneira correta de capturar exceções de processos concorrentes?
@@ -34,6 +38,9 @@ namespace HandlingAggregateExceptions
 			var operacoes = Enumerable.Range(i, qtdeOperacoes).Shuffle().Select((x) => OperacaoFactory.CreateOperacao(operacoesNomes[x])());
 
 			/*
+			
+			## Como proceder
+			
 			Definimos a `Task operacoesWhenAll` que será completada quando todas as operacoes forem concluída.
 			*/
 
