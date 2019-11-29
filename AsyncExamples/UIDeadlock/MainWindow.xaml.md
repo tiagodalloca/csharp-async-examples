@@ -13,7 +13,6 @@ var vm = new UIDeadlockViewModel(3);
 InitializeComponent();
 // ...
 ```
-```
 Temos aqui a definição dos eventos de cada botão e fica bem evidente a difereça entre eles.
 ```csharp
 
@@ -33,6 +32,3 @@ buttonDeadlock.Click += (s, e) =>
 
 ```
 Outra coisa que funciona é `vm.EsperarSegundos().ConfigureAwait(false).GetAwaiter().GetResult()`. O problema que em algumas situações, quando existe contexto compartilhado entre as `Tasks`, você vai acabar gerando uma exceção.
-```csharp
-
-```

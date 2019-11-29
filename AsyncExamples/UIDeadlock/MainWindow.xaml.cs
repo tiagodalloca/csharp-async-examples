@@ -73,14 +73,12 @@ namespace UIDeadlock
 			/*
 			Outra coisa que funciona é `vm.EsperarSegundos().ConfigureAwait(false).GetAwaiter().GetResult()`. O problema que em algumas situações, quando existe contexto compartilhado entre as `Tasks`, você vai acabar gerando uma exceção.
 			*/
-
 			// true dat off
 
 			textBoxSegundos.PreviewTextInput += (s, e) =>
 			{
 				e.Handled = !uint.TryParse(e.Text, out _);
 			};
-			// true da off
 		}
 	}
 
