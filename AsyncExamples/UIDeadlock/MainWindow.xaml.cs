@@ -52,7 +52,6 @@ namespace UIDeadlock
 			textBoxSegundos.SetBinding(IsEnabledProperty, isEnabledBinding);
 
 			// true dat on
-
 			/*
 			Temos aqui a definição dos eventos de cada botão e fica bem evidente a difereça entre eles.
 			*/ 

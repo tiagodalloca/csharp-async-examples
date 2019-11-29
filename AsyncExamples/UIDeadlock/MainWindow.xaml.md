@@ -13,8 +13,6 @@ var vm = new UIDeadlockViewModel(3);
 InitializeComponent();
 // ...
 ```
-```csharp
-
 ```
 Temos aqui a definição dos eventos de cada botão e fica bem evidente a difereça entre eles.
 ```csharp
