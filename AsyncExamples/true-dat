@@ -1,1 +1,3 @@
 ./HandlingAggregateExceptions/Program.cs
+./UIDeadlock/MainWindow.xaml.cs
+./UIDeadlock/UIDeadlockViewModel.cs

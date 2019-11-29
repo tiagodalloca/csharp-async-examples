@@ -6,6 +6,7 @@ using System.Timers;
 
 namespace UIDeadlock
 {
+	// true dat on
 	class UIDeadlockViewModel : INotifyPropertyChanged
 	{
 		public uint Segundos { get; set; }
@@ -35,4 +36,5 @@ namespace UIDeadlock
 
 		public event PropertyChangedEventHandler PropertyChanged;
 	}
+	// true dat off
 }
