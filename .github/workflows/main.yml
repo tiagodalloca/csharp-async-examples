@@ -10,3 +10,5 @@ jobs:
     steps:
     - name: Run True DAT
       run: .\true-dat\true-documentation-automation-tool.exe .\AsyncExamples\
+    - name: Add modifications do git
+      run: git add . && git commit -m "Updates docs"
