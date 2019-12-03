@@ -13,6 +13,8 @@ var vm = new UIDeadlockViewModel(3);
 InitializeComponent();
 // ...
 ```
+## O que fazer
+
 Temos aqui a definição dos eventos de cada botão e fica bem evidente a difereça entre eles.
 ```csharp
 
@@ -23,6 +25,9 @@ buttonSemDeadlock.Click += async (s, e) =>
 	MessageBox.Show($"SIM SIM SIM, se passaram { vm.Segundos } segundos!");
 };
 
+```
+*⚠️ NÃO FAÇA ISSO ⚠️:*
+```csharp
 buttonDeadlock.Click += (s, e) =>
 {
 	// Wait numa thread UI gera deadlock
