@@ -7,7 +7,7 @@ namespace AsyncHelloWorld
 	{
 		// true dat on
 		/*
-		A fazer.
+		A fazer ..
 		*/
 		// true dat off
 
