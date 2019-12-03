@@ -1,3 +1,4 @@
 ./HandlingAggregateExceptions/Program.cs
 ./UIDeadlock/MainWindow.xaml.cs
 ./HandlingAsyncExceptions/Program.cs
+./AwaitingMultipleTasks/Program.cs
