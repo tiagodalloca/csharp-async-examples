@@ -9,6 +9,7 @@ The following content will be written in portuguese.
 ---
 
 Conteúdo:
+* [Async Hello World](AsyncExamples/Main/Program.md)
 * [Awaiting on Multiple Tasks](AsyncExamples/AwaitingMultipleTasks/Program.md)
 * [UI Deadlock](AsyncExamples/UIDeadlock/MainWindow.xaml.md)
 * [Handling Async Exceptions](AsyncExamples/HandlingAsyncExceptions/Program.md)
