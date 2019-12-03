@@ -5,6 +5,12 @@ namespace AsyncHelloWorld
 {
 	class Program
 	{
+		// true dat on
+		/*
+		A fazer.
+		*/
+		// true dat off
+
 		private const uint SEGUNDOS = 3;
 
 		static void Main(string[] args)

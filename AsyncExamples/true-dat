@@ -2,3 +2,4 @@
 ./UIDeadlock/MainWindow.xaml.cs
 ./HandlingAsyncExceptions/Program.cs
 ./AwaitingMultipleTasks/Program.cs
+./Main/Program.cs
