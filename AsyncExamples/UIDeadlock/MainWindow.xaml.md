@@ -18,6 +18,9 @@ InitializeComponent();
 Temos aqui a definição dos eventos de cada botão e fica bem evidente a difereça entre eles.
 ```csharp
 
+```
+Faça isso:
+```csharp
 buttonSemDeadlock.Click += async (s, e) =>
 {
 	// a forma correta usando await e um função async
@@ -26,7 +29,7 @@ buttonSemDeadlock.Click += async (s, e) =>
 };
 
 ```
-*⚠️ NÃO FAÇA ISSO ⚠️:*
+⚠️ **DEFINITIVAMENTE NÃO FAÇA ISSO** ⚠️:
 ```csharp
 buttonDeadlock.Click += (s, e) =>
 {
