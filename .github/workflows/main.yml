@@ -9,4 +9,4 @@ jobs:
 
     steps:
     - name: Run True DAT
-      run: ./gendocs.bat
+      run: .\true-dat\true-documentation-automation-tool.exe .\AsyncExamples\
