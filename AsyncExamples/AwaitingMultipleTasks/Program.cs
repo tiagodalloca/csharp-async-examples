@@ -79,7 +79,7 @@ namespace AwaitingMultipleTasks
 
 			// true dat on
 			/*
-			# Timeout e cancelamento
+			## Timeout e cancelamento
 
 			E se quisermos executar nossas tarefas em uma dada ordem mas interromper sua execução se passar de um tempo? Mais ainda, e se quisermos permitir o usuário cancelar um conjunto de tarefa? Podemos fazer exatamente com um `CancellationToken`.
 
