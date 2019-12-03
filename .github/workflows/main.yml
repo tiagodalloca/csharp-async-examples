@@ -1,0 +1,12 @@
+name: Updates Docs
+
+on: [push]
+
+jobs:
+  update-docs-windows:
+
+    runs-on: windows-latest
+
+    steps:
+    - name: Run True DAT
+      run: ./gendocs.bat
