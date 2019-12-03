@@ -1,4 +1,4 @@
 #!/bin/sh
 exec ./true-dat/true-documentation-automation-tool.exe ./AsyncExamples/
-git add .
-git commit -m "[True DAT] Automatic Documentations Update"
+exec git add .
+exec git commit -m "[True DAT] Automatic Documentations Update"
