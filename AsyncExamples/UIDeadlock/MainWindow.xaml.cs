@@ -53,6 +53,8 @@ namespace UIDeadlock
 
 			// true dat on
 			/*
+			## O que fazer
+
 			Temos aqui a definição dos eventos de cada botão e fica bem evidente a difereça entre eles.
 			*/ 
 
@@ -63,6 +65,9 @@ namespace UIDeadlock
 				MessageBox.Show($"SIM SIM SIM, se passaram { vm.Segundos } segundos!");
 			};
 
+			/*
+			*⚠️ NÃO FAÇA ISSO ⚠️:*
+			*/
 			buttonDeadlock.Click += (s, e) =>
 			{
 				// Wait numa thread UI gera deadlock
