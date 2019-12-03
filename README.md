@@ -1,6 +1,6 @@
 # C# async examples
 
-This repository purpose is mainly to consult some nice use cases and techniques when developing `async` code in C#.
+This repository purpose is mainly to provide some nice use cases and techniques when developing `async` code in C#.
 
 I've used the [True Documentation Automation Tool (True DAT)](https://github.com/MrDallOca/true-documentation-automation-tool), a highly experimental tool for Literate Programming. The content is written in portuguese only as by now, but someday I might translate it.
 
