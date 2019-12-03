@@ -56,10 +56,8 @@ namespace UIDeadlock
 			## O que fazer
 
 			Temos aqui a definição dos eventos de cada botão e fica bem evidente a difereça entre eles.
-			*/ 
 
-			/*
-			Faça isso:
+			✔️ Faça isso 
 			*/
 			buttonSemDeadlock.Click += async (s, e) =>
 			{
@@ -69,7 +67,7 @@ namespace UIDeadlock
 			};
 
 			/*
-			⚠️ **DEFINITIVAMENTE NÃO FAÇA ISSO** ⚠️:
+			⚠️ **DEFINITIVAMENTE NÃO FAÇA ISSO** ⚠️
 			*/
 			buttonDeadlock.Click += (s, e) =>
 			{

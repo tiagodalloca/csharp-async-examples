@@ -16,10 +16,8 @@ InitializeComponent();
 ## O que fazer
 
 Temos aqui a definição dos eventos de cada botão e fica bem evidente a difereça entre eles.
-```csharp
 
-```
-Faça isso:
+✔️ Faça isso 
 ```csharp
 buttonSemDeadlock.Click += async (s, e) =>
 {
@@ -29,7 +27,7 @@ buttonSemDeadlock.Click += async (s, e) =>
 };
 
 ```
-⚠️ **DEFINITIVAMENTE NÃO FAÇA ISSO** ⚠️:
+⚠️ **DEFINITIVAMENTE NÃO FAÇA ISSO** ⚠️
 ```csharp
 buttonDeadlock.Click += (s, e) =>
 {
