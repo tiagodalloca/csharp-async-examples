@@ -1,14 +1,14 @@
-name: Updates Docs
+# name: Updates Docs
 
-on: [push]
+# on: [push]
 
-jobs:
-  update-docs-windows:
+# jobs:
+#   update-docs-windows:
 
-    runs-on: windows-latest
+#     runs-on: windows-latest
 
-    steps:
-    - name: Run True DAT
-      run: .\true-dat\true-documentation-automation-tool.exe .\AsyncExamples\
-    - name: Add modifications do git
-      run: git add . && git commit -m "Updates docs"
+#     steps:
+#     - name: Run True DAT
+#       run: .\true-dat\true-documentation-automation-tool.exe .\AsyncExamples\
+#     - name: Add modifications do git
+#      run: git add . && git commit -m "Updates docs"
